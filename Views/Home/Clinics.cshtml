@@ -1,0 +1,66 @@
+﻿<!--Tell the view that you will have alist of type  clinic from new edition project in models file the name of the model is clinic -->
+@model IEnumerable<Web1.Models.Clinic>
+
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<main>
+    <!--? Hero Start -->
+    <div class="slider-area2">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 text-center">
+                            <h2>Clinics</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+    <!--? Team Start -->
+    <div class="team-area section-padding30">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-tittle text-center mb-100">
+                        <span>Our Clinics</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                 @foreach(var item in Model)
+                        {
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                    <div class="single-team mb-30">
+                      
+                            <div class="team-img"></div>
+                            <div class="team-caption">
+                                <h3><a href="#">@item.ClinicName</a></h3>
+                                <span>@item.ClinicPhone</span>
+                                <span>@item.ClinicPhone</span>
+                                <span>@item.ClinicLocation</span>
+                                <span>@item.ClinicId</span>
+                                <!-- Team social -->
+                 
+                                <div class="button-group-area mt-10">
+                                    <!--  send data to the next view Doctor  view page   and in controller of the page  -->
+                                    <h4><a href="/Home/Doctors/@item.ClinicId" class="genric-btn link-border">Doctors</a></h4>
+                                </div>
+                                
+                            
+                        </div>
+
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+</main>

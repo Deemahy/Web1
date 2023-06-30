@@ -1,0 +1,85 @@
+﻿<!--Tell the view that you will have alist of type  clinic from new edition project in models file the name of the model is clinic -->
+@model IEnumerable<Web1.Models.JoinTable>
+ 
+@{
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+
+<main>
+
+
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Appointment</h4>
+                        <h6 class="card-subtitle">
+                        </h6>
+                        <h6 class="card-title m-t-40">
+                        </h6>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+
+                                        <th scope="col">Vaccine name</th>
+                                        <th scope="col">Date</th>
+                                            <th scope="col">Head circumference</th>
+                                        <th scope="col">Width</th>
+                                        <th scope="col">hight</th>
+                                        <th scope="col"></th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                     
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                                <td>@item.JTvaccsine.VName</td>
+
+                                            <td>@item.JTpatentVacc.VacDay</td>
+                                                <td>@item.JTpatentVacc.Headcircumference</td>
+                                                <td>@item.JTpatentVacc.Width</td>
+                                                <td>@item.JTpatentVacc.Hight</td>
+
+                                           
+                                            
+                                            
+
+                                            
+                                        </tr>
+                                    }
+                                     
+
+                                </tbody>
+                            </table>
+                            
+                                
+                                  
+                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="page-wrapper">
+                    <!-- ============================================================== -->
+                    <!-- Bread crumb and right sidebar toggle -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- End Bread crumb and right sidebar toggle -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Container fluid  -->
+                    <!-- ============================================================== -->
+                    
+                </div>
+        </div>
+    </div>
+    </div>
+</main>

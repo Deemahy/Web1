@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+@model IEnumerable<JoinTable>
+<div class="page-wrapper">
+<div class="container-fluid">
+    <!-- ============================================================== -->
+    <!-- Start Page Content -->
+    <!-- ============================================================== -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Pateient appointment</h4>
+                    <h6 class="card-subtitle">
+                        </h6>
+                    <h6 class="card-title m-t-40">
+                       
+                    </h6>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Start Time</th>
+                                    <th scope="col">End Time</th>
+                                    <th scope="col">Medesine</th>
+                                    <th scope="col">MidCase</th>
+                                    <th scope="col"></th>
+                                    <th scope="col"></th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@item.JTuser.FullName</td>
+                                            <td>@item.JTavailabiltyDate.Date?.ToString("dd/MM/yyyy")</td>
+                                            <td>@item.JTappontment.StartTime</td>
+                                            <td>@item.JTappontment.EndTime</td>
+                                            <td>@item.JTappontment.Medesine</td>
+                                            <td>@item.JTappontment.MidCase</td>
+                                           
+                                            <td>
+                                                <a href="/DoctorCon/Edit/@item.JTappontment.AppontmentId" class="btn btn-primary text-white">Edit </a>
+                                            </td>
+
+                                            
+                                            <td>
+                                                <form method="post" action="/DoctorCon/viewvac/@item.JTappontment.PatId">
+                                                    <button type="submit" class="btn btn-cyan text-white">View Vacines</button>
+                                                </form>
+                                            </td>
+                                            
+                                            <td>
+                                                <a href="/DoctorCon/addvac/@item.JTuser.UserId" class="btn btn-primary text-white">Add Vaccine</a> 
+                                            </td>
+                                            
+                                        </tr>
+                                    }
+                                
+     
+                            </tbody>
+                        </table>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>

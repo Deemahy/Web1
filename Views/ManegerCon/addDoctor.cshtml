@@ -1,0 +1,112 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutManegeer.cshtml";
+}
+<div class="page-wrapper">
+    <!-- ============================================================== -->
+    <!-- Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+    <div class="page-breadcrumb">
+        <div class="row align-items-center">
+            <div class="col-9">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0 d-flex align-items-center">
+                        <li class="breadcrumb-item"><a href="index.html" class="link"><i class="mdi mdi-home-outline fs-4"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Add doctor</li>
+                    </ol>
+                </nav>
+                <h1 class="mb-0 fw-bold">Add doctor</h1>
+            </div>
+            <div class="col-6">
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Container fluid  -->
+    <!-- ============================================================== -->
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <!-- Row -->
+        <!-- Column -->
+        <!-- Column -->
+        @ViewBag.ID
+        <div class="col-lg-8 col-xlg-9 col-md-7">
+            <div class="card">
+                <div class="card-body">
+                    <form class="card-body" asp-action="addDoctor">
+                        <div class="form-group">
+                            <label for="Doctor name " class="font-medium">Doctor name </label>
+                            <input type="text" id="Doctor name " placeholder="Doctor name " class="form-control form-control-line" name="FullName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="font-medium">Phone</label>
+                            <input type="text" id="phone" placeholder="Phone" class="form-control form-control-line" / name="Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="font-medium">Email</label>
+                            <input type="email" id="email" placeholder="Email" class="form-control form-control-line" name="Email" />
+                        </div>
+
+                        <div class="form-radio">
+                            <label for="gender">Gender</label>
+                            <div class="form-flex">
+                                <input type="radio" name="gender" value="male" id="male" checked="checked" />
+                                <label for="male">Male</label>
+
+                                <input type="radio" name="gender" value="female" id="female" />
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                        <div class="form-group form-icon">
+                            <label for="birth_date">Birth date</label>
+                            <input type="text" class="form-input" name="DateBearth" id="birth_date" placeholder="MM-DD-YYYY" />
+                        </div>
+                        
+                        
+                        <div class="form-group">
+                            <label for="UserName" class="font-medium">User Name</label>
+                            <input type="text" id="username" placeholder="First letter of the Name and father then NationalNumber " class="form-control form-control-line" name="Username" />
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="font-medium">Password</label>
+                            <input type="text" id="password" placeholder="password" class="form-control form-control-line"  name="Password"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="speclized" class="font-medium">Speclized</label>
+                            <input type="text" id="speclized" placeholder="speclized" class="form-control form-control-line" name="Speclized" />
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-12">Other info</label>
+                            <div class="col-md-12">
+                                <textarea rows="5" class="form-control form-control-line" name="OtherInfo"></textarea>
+                            </div>
+                        <center>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <button class="btn btn-success text-white">Done </button>
+                                </div>
+
+                            </div>
+                        </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Column -->
+    </div>
+    <!-- Row -->
+    <!-- ============================================================== -->
+    <!-- End PAge Content -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Right sidebar -->
+    <!-- ============================================================== -->
+    <!-- .right-sidebar -->
+    <!-- ============================================================== -->
+    <!-- End Right sidebar -->
+    <!-- ============================================================== -->
+</div>

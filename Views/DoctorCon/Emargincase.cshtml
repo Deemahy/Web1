@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+@model IEnumerable<Web1.Models.Emergency>
+<script>
+    function toggleAnswerSection(emergencyId) {
+        var answerSection = document.getElementById("answer-section-" + emergencyId);
+        answerSection.style.display = answerSection.style.display === "none" ? "block" : "none";
+    }
+</script>
+
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                @foreach (var item in Model)
+                {
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>@item.PatientMassages</h4>
+                            <button class="btn btn-success text-white" onclick="toggleAnswerSection(@item.EmergencyId)">Answer</button>
+                            <form class="answer-section" id="answer-section-@item.EmergencyId" style="display: none;"  asp-action="Answer">
+                                <input type="hidden" name="emergencyId" value="@item.EmergencyId" />
+                                <textarea rows="5" class="form-control form-control-line" name="answer"></textarea>
+                                <button type="submit" class="btn btn-success text-white">Send <i class="m-r-10 mdi mdi-send"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

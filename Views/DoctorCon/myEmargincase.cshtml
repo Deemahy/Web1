@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+@model IEnumerable<Web1.Models.Emergency>
+
+
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                @foreach (var item in Model)
+                {
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>@item.PatientMassages</h5>
+                            <h6>@item.DoctorResponse</h6>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

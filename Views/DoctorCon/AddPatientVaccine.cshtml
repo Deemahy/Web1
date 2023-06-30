@@ -1,0 +1,41 @@
+﻿@model PatentVacc
+@{
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+<!-- Form for editing the appointment data -->
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Appointment</h4>
+                        <h6 class="card-subtitle">
+                        </h6>
+
+
+                        <h1>Add Patient Vaccine</h1>
+
+                        <form method="post" asp-action="AddPatientVaccine">
+                            <div class="form-group">
+                                <label for="VaccId">Vaccine</label>
+                                @Html.DropDownList("VaccId", ViewBag.VaccineList as SelectList, new { @class = "form-control" })
+                            </div>
+
+                            <!-- Add other form fields for patient vaccine details -->
+
+                            <button type="submit" class="btn btn-primary">Add</button>
+                        </form>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                   

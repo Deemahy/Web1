@@ -1,0 +1,123 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@model IEnumerable<Web1.Models.JoinTable>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+        <!-- ============================================================== -->
+        <!-- Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <div class="page-breadcrumb">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0 d-flex align-items-center">
+                            <li class="breadcrumb-item"><a href="index.html" class="link"><i class="mdi mdi-home-outline fs-4"></i></a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                        </ol>
+                    </nav>
+                    <h1 class="mb-0 fw-bold">Dashboard</h1>
+                </div>
+                
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid">
+            <!-- ============================================================== -->
+            <!-- Sales chart -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Sales chart -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Table -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Table -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Recent comment and chats -->
+            <!-- ============================================================== -->
+
+            <div class="row">
+                <!-- column -->
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <!-- title -->
+                            <div class="d-md-flex">
+                                <div>
+                                    <h4 class="card-title">Over View </h4>
+                                    <h5 class="card-subtitle">Overview of Maneger and clinic</h5>
+                                </div>
+                               
+                            </div>
+                            <!-- title -->
+                            <div class="table-responsive">
+                                <table class="table mb-0 table-hover align-middle text-nowrap">
+                                    <thead>
+                                        <tr>
+                                            <th class="border-top-0">Maneger name</th>
+                                            <th class="border-top-0">Maneger phone</th>
+                                            <th class="border-top-0">Maneger Email</th>
+                                            <th class="border-top-0">clinic name</th>
+                                            <th class="border-top-0">clinic phone</th>
+                                            
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach(var iteam in Model)
+                                        {
+                                        <tr>
+                                            
+                                            <td>@iteam.JTuser.FullName</td>
+                                            <td>@iteam.JTuser.Phone </td>
+                                            <td>@iteam.JTuser.Email </td>
+                                            <td>@iteam.JTclinic.ClinicName</td>
+                                            <td>@iteam.JTclinic.ClinicPhone</td>
+                                            <td>
+                                                
+                                                    <a class="sidebar-link waves-effect waves-dark sidebar-link"
+                                                       href="#" aria-expanded="false">
+                                                        <i class="mdi mdi-alert-outline"></i><span class="hide-menu">Delete</span>
+                                                    </a>
+                                                
+                                            </td>
+                                           @* <td>
+                                                <h5 class="m-b-0">$2850.06</h5>
+                                            </td>*@
+                                        </tr>
+                                      }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- Recent comment and chats -->
+            <!-- ============================================================== -->
+        </div>
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+

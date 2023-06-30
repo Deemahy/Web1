@@ -1,0 +1,170 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Page wrapper  -->
+<!-- ============================================================== -->
+<div class="page-wrapper">
+    <!-- ============================================================== -->
+    <!-- Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+    <div class="page-breadcrumb">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0 d-flex align-items-center">
+                        <li class="breadcrumb-item"><a href="index.html" class="link"><i class="mdi mdi-home-outline fs-4"></i></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                    </ol>
+                </nav>
+                <h1 class="mb-0 fw-bold">Dashboard</h1>
+            </div>
+
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Bread crumb and right sidebar toggle -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Container fluid  -->
+    <!-- ============================================================== -->
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Sales chart -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Sales chart -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Table -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Table -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Recent comment and chats -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <!-- column -->
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Clinic info </h4>
+                    </div>
+                    <div class="comment-widgets scrollable">
+                        <!-- Comment Row -->
+                        <div class="d-flex flex-row comment-row m-t-0">
+                            <div class="p-2">
+                            </div>
+                            <div class="comment-text w-100">
+
+                                <span class="m-b-15 d-block">
+                                    <form class="card-body " asp-action="Add">
+                                        <div class="form-group">
+                                            <label for="clinicName" class="font-medium">Clinic name</label>
+                                            <input type="text" id="clinicname" placeholder="Clinic Name" class="form-control form-control-line" name="ClinicName" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="clinicaddress" class="font-medium">Clinic Address</label>
+                                            <input type="text" id="clinicaddress" placeholder="Clinic Address" class="form-control form-control-line" name="ClinicAddress" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="clinicphone" class="font-medium">Clinic Phone</label>
+                                            <input type="text" id="clinicphone" placeholder="Clinic Phone" class="form-control form-control-line" name="ClinicPhone" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="clinicname" class="font-medium">Clinic Location </label>
+                                            <input type="text" id="clinicname" placeholder="clinic name" class="form-control form-control-line" name="ClinicLocation" />
+                                        </div>
+                                        <hr/>
+                                       <hr/>
+                                        <h4 class="card-title">Manegeer info </h4>
+
+                                        <div class="form-group">
+                                            <label for="Manegeer name " class="font-medium">Manegeer name </label>
+                                            <input type="text" id="Manegeer name " placeholder="Manegeer name " class="form-control form-control-line" name="FullName" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="phone" class="font-medium">Phone</label>
+                                            <input type="text" id="phone" placeholder="Phone" class="form-control form-control-line" name="Phone" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email" class="font-medium">Email</label>
+                                            <input type="email" id="email" placeholder="Email" class="form-control form-control-line" name="Email" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="nationalnumber" class="font-medium">National number</label>
+                                            <input type="text" id="nationalnumber" placeholder="National number" class="form-control form-control-line" name="Username" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password" class="font-medium">Password</label>
+                                            <input type="text" id="password" placeholder="password" class="form-control form-control-line" name="Password" />
+                                        </div>
+                                        
+                                            <div class="form-group form-icon">
+                                                <label class="font-medium" for="birth_date">Birth date</label>
+                                                <input type="date" class="font-medium" name="DateBearth" id="birth_date" placeholder="MM-DD-YYYY" />
+                                            </div>
+                                            <div class="form-radio">
+                                                <label for="gender">Gender</label>
+                                                <div class="form-flex">
+                                                    <input type="radio" name="gender" value="male" id="male" checked="checked" />
+                                                    <label for="male">Male</label>
+
+                                                    <input type="radio" name="gender" value="female" id="female" />
+                                                    <label for="female">Female</label>
+                                                </div>
+                                            </div>
+                                              <hr />
+                                        <hr />
+                                        <h4 class="card-title">Reception info </h4>
+
+                                        
+                                        <div class="form-group">
+                                            <label for="nationalnumber" class="font-medium">User name</label>
+                                            <input type="text" id="nationalnumber" placeholder="National number" class="form-control form-control-line" name="clinicUsername" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password" class="font-medium">Password</label>
+                                            <input type="text" id="password" placeholder="password" class="form-control form-control-line" name="clinicPassword" />
+                                        </div>
+                                        <hr/>  
+                                        <center>
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <button class="btn btn-success text-white">Done </button>
+                                                </div>
+
+                                            </div>
+                                        </center>
+                                    </form>
+                                </span>
+
+                            </div>
+                        </div>
+                        <!-- Comment Row -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- column -->
+            
+            <!-- ============================================================== -->
+            <!-- Recent comment and chats -->
+            <!-- ============================================================== -->
+        </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- End Container fluid  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- footer -->
+    <!-- ============================================================== -->
+
+</div>

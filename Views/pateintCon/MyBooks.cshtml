@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Web1.Models.JoinTable>
+@{
+    Layout = "~/Views/Shared/_LayoutPatient.cshtml";
+}
+<main>
+   
+    <div class="slider-area2">
+        <div class="slider-height2 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="hero-cap hero-cap2 text-center">
+                            <h2>My Appointment </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-area section-padding30">
+        <div class="container">
+           
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                            </div>
+                            <div class="team-caption">
+                                <h3><a >Doctor name - @item.JTuser.FullName</a></h3>
+                                <span>Clinic name - @item.JTclinic.ClinicName</span>
+                                <span>Start time - @item.JTappontment.StartTime</span>
+                                <span>End time - @item.JTappontment.EndTime</span>
+                                <span>Date -  @item.JTavailabiltyDate.Date?.ToString("dd/MM/yyyy")</span>
+                                <h3>
+                                    <form asp-action="DeleteAppointment">
+                                        <input type="hidden" name="appointmentId" value="@item.JTappontment.AppontmentId" />
+                                        <button type="submit" class="genric-btn success radius">Delete</button>
+                                    </form>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+</main>

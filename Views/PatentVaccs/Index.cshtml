@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Web1.Models.PatentVacc>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VaccId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VacDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Width)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Headcircumference)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientVac)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientVacNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VaccId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VacDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Width)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Headcircumference)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientVac.PatientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientVacNavigation.VaccsineId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PatientVacId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PatientVacId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PatientVacId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

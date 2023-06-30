@@ -1,0 +1,44 @@
+﻿@{
+	Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@model IEnumerable<Web1.Models.JoinTable>
+
+<main>
+	<h4>
+		<div class="whole-wrap">
+			<div class="container box_1170">
+				<div class="section-top-border">
+					<h3 class="mb-30">Avalable time </h3>
+					<div class="progress-table">
+						<div class="table-head">
+							<div class="visit">Clinic Name </div>
+							<div class="visit">Doctor Name </div>
+							<div class="visit">Date </div>
+							<div class="visit">Start time </div>
+							<div class="visit">End time </div>
+							
+						</div>
+
+
+						@foreach (var item in Model)
+						{
+							<div class="table-row">
+								<div class="visit">@item.JTclinic.ClinicName </div>
+								<div class="visit">@item.JTuser.FullName</div>
+								<div class="visit">@item.JTavailabiltyDate.Date?.ToString("dd/MM/yyyy")</div>
+								<div class="visit">@item.JTappontment.StartTime</div>
+								<div class="visit">@item.JTappontment.EndTime</div>
+
+							</div>
+
+						}
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</h4>
+</main>

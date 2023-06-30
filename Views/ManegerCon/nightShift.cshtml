@@ -1,0 +1,48 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutManegeer.cshtml";
+}
+@model IEnumerable<Web1.Models.JoinTable>
+<div class="page-wrapper">
+<div class="container-fluid">
+    <div class="row">
+        <!-- column -->
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">View night Doctor </h4>
+                    <h6 class="card-subtitle">
+                       
+                    </h6>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Doctor name</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Start time</th>
+                                <th scope="col">End time</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            @foreach( var item in Model){
+                            <tr>
+                                <td>@item.JTuser.FullName</td>
+                                        <td>@item.JTnightShift.Date?.ToString("dd/MM/yyyy")</td>
+                                <td >@item.JTnightShift.StartTime</td>
+                                <td>@item.JTnightShift.EndTime</td>
+                               
+                                        <td><a href="/ManegerCon/deleteShift/@item.JTnightShift.NightShiftId" class="btn btn-primary text-white" target="_blank">Delete</a></td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+    </div>
+ </div>

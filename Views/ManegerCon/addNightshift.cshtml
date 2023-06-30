@@ -1,0 +1,69 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutManegeer.cshtml";
+}
+@model IEnumerable<Web1.Models.JoinTable>
+<div class="page-wrapper">
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+<div class="col-lg-10">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Available time </h4>
+
+            <div class="col-lg-8 col-xlg-9 col-md-7">
+                <div class="card">
+                    <div class="card-body">
+                                        <form class="form-horizontal form-material mx-2" asp-action="addNightshift">
+
+                                            <div class="form-group">
+                                                <label for="DoctorId" class="control-label">Doctor name</label>
+                                                <select id="Uid" name="uid" class="form-control">
+                                                    <option value="">Select a doctor</option>
+                                                    @foreach (var doctor in Model)
+                                                    {
+                                                        <option value="@doctor.JTuser.UserId">@doctor.JTuser.FullName</option>
+                                                    }
+                                                </select>
+                                                <span name="DoctorId" class="text-danger"></span>
+                                            </div>
+
+                                            <div class="form-group">
+                                            <label class="col-md-12">Date</label>
+                                            <div class="col-md-12">
+                                                <input type="date"   name="Date" value="" required>
+                                            </div>
+                                            </div>
+                            <div class="form-group">
+                                <label class="col-md-12">Start time </label>
+                                <div class="col-md-12">
+                                    <input type="time" placeholder="HH:MM"
+                                           class="form-control form-control-line" name="StartTime" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-12">End time </label>
+                                <div class="col-md-12">
+                                    <input type="time" placeholder="HH:MM"
+                                           class="form-control form-control-line" name="EndTime" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <button class="btn btn-success text-white">Add shift </button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Column -->
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+
+        </div>
+    </div>

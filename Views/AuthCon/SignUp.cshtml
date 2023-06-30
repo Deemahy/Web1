@@ -1,0 +1,69 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="~/SignIn/fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="~/SignIn/vendor/jquery-ui/jquery-ui.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="~/SignIn/css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <section class="signup">
+
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="container">
+                <div class="signup-content">
+                    <center> <div style="font-size: x-large;">Log In</div> </center>
+                     <center><p>Wellcom back again... </p></center>
+                    <form method="POST" id="signup-form" class="signup-form" asp-action="SignUp">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="userName">National Number</label>
+                                <input type="text" class="form-input" name="Username" placeholder="National Number" />
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Password</label>
+                                <input type="password" class="form-input" name="Password" id="last_name" />
+                            </div>
+                        </div>
+                       
+                       
+                       
+                            <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Submit" />
+                        </div>
+
+                        <div style="font-size:small;">
+                            Dont Have Account 
+                            <a href="https://localhost:7011/AuthCon/SignIn" class="add-info-link"><i class="zmdi zmdi-chevron-right"></i>Regester</a>
+                       </div>
+
+                        
+                    </form>
+                   
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="~/SignIn/vendor/jquery/jquery.min.js"></script>
+    <script src="~/SignIn/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/SignIn/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/SignIn/vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="~/SignIn/js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

@@ -1,0 +1,40 @@
+﻿@model Appontment
+@{
+    Layout = "~/Views/Shared/_LayoutDoctor.cshtml";
+}
+<!-- Form for editing the appointment data -->
+<div class="page-wrapper">
+    <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Appointment</h4>
+                        <h6 class="card-subtitle">
+                        </h6>
+<h1>Edit Appointment</h1>
+
+                        <form method="post" action="/DoctorCon/Update">
+    <input type="hidden" name="AppontmentId" value="@Model.AppontmentId" />
+
+    <div class="form-group">
+        <label for="Medesine">Medesine</label>
+                                <input type="text" class="form-control" id="Medesine" name="Medesine" value="@Model.Medesine" />
+    </div>
+
+    <div class="form-group">
+        <label for="MidCase">Mid Case</label>
+                                <input type="text" class="form-control" id="MidCase" name="MidCase" value="@Model.MidCase" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

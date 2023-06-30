@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutManegeer.cshtml";
+}
+@model IEnumerable<Web1.Models.JoinTable>
+<div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full"
+     data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div class="page-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Prevouse appointment</h4>
+
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Doctor Name</th>
+                                        <th scope="col">Day</th>
+                                        <th scope="col">Start time</th>
+                                        <th scope="col">End time</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var iteam in Model)
+                                    {
+                                        <tr>
+                                            <th scope="row">@iteam.JTuser.FullName</th>
+                                            <td>@iteam.JTavailabiltyDate.Date?.ToString("dd/MM/yyyy")</td>
+                                            <td>@iteam.JTappontment.StartTime</td>
+                                            <td>@iteam.JTappontment.EndTime</td>
+
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

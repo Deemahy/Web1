@@ -1,0 +1,253 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Web1
+build_property.RootNamespace = Web1
+build_property.ProjectDir = C:\Users\Rog\Desktop\Project\Web1\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Rog\Desktop\Project\Web1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/AdminCon/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db25cQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/AdminCon/AdminIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db25cQWRtaW5JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/AdminCon/other form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db25cb3RoZXIgZm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/AdminCon/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db25cUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/AuthCon/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aENvblxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/AuthCon/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aENvblxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/AddDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXEFkZERhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/AddPatientVaccine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXEFkZFBhdGllbnRWYWNjaW5lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/addTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXGFkZFRpbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/addvac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXGFkZHZhYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/allEmargincase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXGFsbEVtYXJnaW5jYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/Answer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXEFuc3dlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/DeleteApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXERlbGV0ZUFwcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/Emargincase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXEVtYXJnaW5jYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/FormDay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXEZvcm1EYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/myEmargincase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXG15RW1hcmdpbmNhc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXHVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/viewappointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXHZpZXdhcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/DoctorCon/viewvac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yQ29uXHZpZXd2YWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Home/AllappointmentInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbGxhcHBvaW50bWVudEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Home/allEmargineResponce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhbGxFbWFyZ2luZVJlc3BvbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Home/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Home/Clinics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDbGluaWNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Home/Doctors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb2N0b3JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/addDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblxhZGREb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/addNightshift.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblxhZGROaWdodHNoaWZ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/deleteDoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblxkZWxldGVEb2MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/deleteShift.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblxkZWxldGVTaGlmdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/doctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblxkb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/nightShift.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblxuaWdodFNoaWZ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblxwcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/ManegerCon/upCome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuZWdlckNvblx1cENvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/allEmargineResponce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxhbGxFbWFyZ2luZVJlc3BvbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/Book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/DoctorResponce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxEb2N0b3JSZXNwb25jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/Doctors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxEb2N0b3JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/emargencyCase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxlbWFyZ2VuY3lDYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/MyBooks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxNeUJvb2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/Myvac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxNeXZhYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/showEmargine.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxzaG93RW1hcmdpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/showEmargineResponce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblxzaG93RW1hcmdpbmVSZXNwb25jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/pateintCon/upCommingAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGF0ZWludENvblx1cENvbW1pbmdBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/_LayoutDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREb2N0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/_LayoutManegeer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNYW5lZ2Vlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/_LayoutPatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQYXRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/_LayoutReseption.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRSZXNlcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3mdgy0uigu
+
+[C:/Users/Rog/Desktop/Project/Web1/Views/Shared/_LayoutHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-ufenn23w0a
